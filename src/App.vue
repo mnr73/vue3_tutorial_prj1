@@ -1,12 +1,9 @@
 <template>
-  <!-- <img src="./assets/logo.png" alt="logo" /> -->
-  <!-- <img src="./assets/logo.png" alt="logo" /> -->
   <Menu @changePage="page = $event" />
   <Pages :page="page" />
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import Menu from "@/components/Menu.vue";
 import Pages from "@/components/Pages.vue";
 
